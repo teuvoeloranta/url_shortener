@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-slate-800;
+}
+
+body {
+  @apply bg-gradient-to-t from-slate-100 via-white  to-white;
+}
+
+input {
+  @apply outline-0;
+}
+
+@layer components {
+  .btn {
+    @apply disabled:pointer-events-none disabled:opacity-60 transition duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-zinc-800 hover:bg-zinc-700;
+  }
+}
