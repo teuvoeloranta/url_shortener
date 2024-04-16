@@ -1,6 +1,7 @@
 
 # URL Shortener
 This is a basic URL shortener project, including basic CRUD operations allowing users to create shortened URLs, Modify currently created URLs and remove them.
+It's built with `ExpressJs/Typescript` on backend and `Nextjs/Typescript` on frontend. 
 
 # Database
 For this project I decided to use Redis for simplicity of implementation. This is not a good choice for a production ready service, but for this sample project, it could be good enough.
